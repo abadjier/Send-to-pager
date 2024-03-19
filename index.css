@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Press Start 2P", system-ui;
+    background-color: #F5F5F5;
+}
+
+main{
+    max-width: 550px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#pager-container {
+    min-width: 250px;
+    padding: 12px;
+    background: #283033;
+    box-shadow: 0px 3px #d9d9d9;
+    
+    text-align: center;
+}
+#pager-container p {    
+    color: #f8f8f8;
+    
+}
+
+#pager-display, #phone-display {
+    min-width: 200px;
+    min-height: 44px;
+    margin-top: 10px;
+    padding: 10px;      
+        
+    line-height: 1.5;
+}
+
+#pager-display {
+    background: #9EC4B3;
+}
+
+#phone-container {
+    display: flex;
+    flex-direction: column;    
+    
+    margin-top: 40px;
+    padding: 12px;
+    
+    background: #D9D9D9;    
+    text-align: center;
+    
+}
+
+#phone-display {
+    background: #444444;    
+    color: #f8f8f8;
+}
+
+#keyboard {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    
+    margin-top: 5px;
+}
+
+button {
+    font-family: "Press Start 2P", system-ui;            
+}
+
+.dial-btn {
+    padding: 10px 10px;    
+    border: none;
+    background: #f8f8f8;
+}
+
+.action-btn {
+    margin-top: 5px;
+    padding: 10px 0;
+    border: 2px solid #0B0B0B;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#btn-reset {
+    background: #be482a;
+    color: #f8f8f8;
+}
+
+#btn-send{
+    background: #3d9c7c;
+    color: #0b0b0b;
+}
